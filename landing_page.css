@@ -1,0 +1,51 @@
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #ff5733 !important;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  background-color: rgba(244, 248, 246, 0.957);
+  color: rgb(23, 21, 32);
+}
+.navbar h1 {
+  font-size: 1.5em;
+}
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+.navbar ul li {
+  margin-left: 1em;
+}
+.navbar ul li a {
+  color: #ff5733;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+.navbar ul li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.product-section {
+  padding: 50px 0;
+}
+
+.product-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+}
